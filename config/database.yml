@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: transactionlocal
+  pool: 5
+  username: postgres
+  password: tilak123
+  host: localhost

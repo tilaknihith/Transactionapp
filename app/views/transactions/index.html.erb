@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>Customer Name</th>
+      <th>Total Checking Balance</th>
+      <th>Total Savings Balance</th>
+      <th>Total Account Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @customer_summary.each do |customer_id, summary| %>
+      <tr>
+        <td><%= summary[:customer_name] %></td>
+        <td><%= number_to_currency(summary[:checking]) %></td>
+        <td><%= number_to_currency(summary[:savings]) %></td>
+        <td><%= number_to_currency(summary[:total]) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

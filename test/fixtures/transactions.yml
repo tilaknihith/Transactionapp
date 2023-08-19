@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  transaction_amount: 9.99
+  date: 2023-08-19 09:45:57
+  account_id: 1
+
+two:
+  transaction_amount: 9.99
+  date: 2023-08-19 09:45:57
+  account_id: 1
